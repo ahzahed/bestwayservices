@@ -451,9 +451,9 @@ section {
   text-align: justify;
   color: #737373;
   font-family: "Quicksand", "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 15px;
-  line-height: 1.6;
+  /* line-height: 1.6; */
   font-weight: 400;
 }
 .tabs .tab-pane ul {
