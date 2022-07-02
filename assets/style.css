@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-  color: #e76668;
+  color: #95c11f;
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 60px;
   z-index: 996;
   background: #006878;
   width: 40px;
@@ -72,6 +72,36 @@ h6 {
   color: #fff;
 }
 .back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Whatsapp
+--------------------------------------------------------------*/
+.whatsapp {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #25d366;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+.whatsapp i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+.whatsapp:hover {
+  background: #128c7e;
+  color: #fff;
+}
+.whatsapp.active {
   visibility: visible;
   opacity: 1;
 }
